@@ -1,0 +1,80 @@
+/*
+ * Copyright 2010-2013, Georgiy Korneev (kgeorgiy@kgeorgiy.info)
+ *
+ * The original location of this file is 
+ * $URL: https://neerc.ifmo.ru/svn/projects/trunk/contests/standings/resources/finalizer/finalize.css $
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+html, body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+    font-size: 190%;
+}
+body {
+    overflow: hidden;
+}
+span {
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+    display: inline-block;
+}
+span.team {
+    width: 100%;
+}
+div.team {
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0.2em;
+    box-shadow: 1px 1px 5px #888;
+}
+div {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+div.rule {
+    position: absolute;
+    width: 100%;
+    border-top: solid 0.1em black;
+}
+div.header {
+    position: absolute;
+    width: 100%;
+    background: white;
+}
+
+.solved  { width: 4.2ex; }
+.time    { width: 5.6ex; }
+.rank    { width: 5.6ex; }
+.problem { width: 4.2ex; margin-left: 0.2em; }
+.bubble { border-radius: 0.2em; box-shadow: 1px 1px 5px #888; }
+
+#log .accepted { color: green; }
+#log .rejected { color: #c06060; }
+#log .time, #log .rank, #log .solved, #log .id { text-align: right; }
+#log .party { padding-left: 1em; font-family: serif; }
+#log * { vertical-align: top; font-size: 12pt; }
+#log th {border-bottom: solid 1px black; }
+
+xml {
+    display: none;
+}

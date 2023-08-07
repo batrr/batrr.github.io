@@ -1,0 +1,134 @@
+.diploma-neerc {
+    background-image: url(bg-neerc.svg);
+    background-color: white;
+    background-size: cover;
+    height: 100%;
+    font-size: 30pt;
+    font-family: Calibri;
+}
+
+.diploma-neerc .info {
+    padding-left: 35%;
+    padding-top: 15%;
+    padding-right: 5%;
+}
+
+.diploma-neerc .neerc-member {
+    font-size: 120%;
+}
+
+.diploma-neerc .neerc-team {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.diploma-neerc .neerc-place {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.diploma-neerc .neerc-event {
+    font-size: 80%;
+}
+
+/* English diploma */
+
+.diploma-en {
+    background-image: url(bg-en.svg);
+    background-color: white;
+    background-size: cover;
+    text-align: left;
+    font-size: 36pt;
+    font-family: ALS Schlange sans;
+    height: 100%;
+}
+
+.diploma-en .h1 {
+    font-size: 200%;
+}
+.diploma-en .h2 {
+    font-size: 150%;
+    padding-top: 0.5em;
+}
+
+.diploma-en .en-team {
+    font-size: 150%;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+.diploma-en .en-center {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.diploma-en table {
+    font-weight: bold;
+    font-size: 100%;
+    max-width: 100%;
+}
+
+.diploma-en td {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: left;
+}
+
+
+/* Russian diploma */
+
+.diploma-ru {
+    background-image: url(bg-ru.svg);
+    background-size: cover;
+    text-align: left;
+    font-size: 36pt;
+    font-family: ALS Schlange sans;
+    height: 100%;
+}
+
+.diploma-ru-ordinary {
+    background-color: #fffccd;
+}
+.diploma-ru-gold {
+    background-color: #FFD700;
+}
+.diploma-ru-silver {
+    background-color: #C0C0C0;
+}
+.diploma-ru-bronze {
+    background-color: #CD7F32;
+}
+
+.diploma-ru .h1 {
+    font-size: 200%;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+.diploma-ru .h2 {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.diploma-ru .ru-team {
+    font-size: 110%;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+.diploma-ru .ru-center {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.diploma-ru table {
+    font-weight: bold;
+    font-size: 100%;
+    max-width: 100%;
+}
+
+.diploma-ru td {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: left;
+}
+
